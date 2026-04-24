@@ -28,7 +28,7 @@ public class Main {
         num2 = userInput.nextInt();
         num3 = userInput.nextInt();
 //      After a few attempts at trying to use the minimum value, I'd decided it was time for me to turn for some help with my logic. Finding the absolute value to find the distance from the number and storing the number with the greatest
-//        absolute value from 0 was pretty challenging, especially because there'd be a fault if there were two of the same number.
+//        absolute value from 0 was pretty challenging, especially because there'd be a fault if there were two numbers with the same absolute value (i.e. -31 and 31 would both have an absolute value of 31, meaning I'd need to run another check)
 
 //        The Model I'll be using is Claude Sonnet 4.6
 /*
