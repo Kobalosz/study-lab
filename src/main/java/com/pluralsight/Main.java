@@ -27,7 +27,10 @@ public class Main {
         num1 = userInput.nextInt();
         num2 = userInput.nextInt();
         num3 = userInput.nextInt();
-//       Got frustrated and decided to get help....
+//      After a few attempts at trying to use the minimum value, I'd decided it was time for me to turn for some help with my logic. Finding the absolute value to find the distance from the number and storing the number with the greatest
+//        absolute value from 0 was pretty challenging, especially because there'd be a fault if there were two of the same number.
+
+//        The Model I'll be using is Claude Sonnet 4.6
 /*
    My prompt:
       "I'm doing a code warmup: the goal is to attempt to find the smallest number in an array that also accounts for negative values. Until I solve the problem, do not provide any suggestions outside of the following criteria:
@@ -50,14 +53,12 @@ public class Main {
 
             }
         }
+        System.out.println(smallest);
+
 // In conclusion: That was pretty hard!
 // Apparently I'm supposed to use the max value INSTEAD of the min value,
 // mathematically I was way overcomplicating it by trying to compare array values to the min value!
 // I got some more practice to do!
-
-
-        System.out.println(smallest);
-
     }
 }
 
